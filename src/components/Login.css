@@ -1,0 +1,59 @@
+* src/components/Login.css */
+
+.login-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  width: 90%;
+  max-width: 400px;
+}
+
+.login-popup h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.login-popup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-popup input {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.login-popup button {
+  background-color: #28a745;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.login-popup button:hover {
+  background-color: #218838;
+}
+
+.login-popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
